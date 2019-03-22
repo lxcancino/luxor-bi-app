@@ -6,7 +6,10 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let user of users" [routerLink]="['./', user.id.value]">
+    <ion-item
+      *ngFor="let user of users"
+      [routerLink]="['/users', user.id.value]"
+    >
       <ion-avatar slot="start">
         <ion-img [src]="user.picture.thumbnail"></ion-img>
       </ion-avatar>

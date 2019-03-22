@@ -16,7 +16,10 @@ export class UserDetailPage implements OnInit {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       this.user = this.service.getUser(params.get('userId'));
-      console.log('User: ', this.user);
     });
+  }
+
+  deleteUser() {
+    this.service.deleteUser(this.user.id.value);
   }
 }

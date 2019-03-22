@@ -1,8 +1,16 @@
 <ion-header>
   <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/users"></ion-back-button>
+    </ion-buttons>
     <ion-title *ngIf="user"
       >{{ user.name.first }} {{ user.name.last }}</ion-title
     >
+    <ion-buttons slot="primary">
+      <ion-button (click)="deleteUser()">
+        <ion-icon name="trash" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
