@@ -2,8 +2,22 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', loadChildren: './home/home.module#HomePageModule' },
+  { path: '', redirectTo: 'users', pathMatch: 'full' },
+  {
+    path: 'recipies',
+    loadChildren: './recipies/recipies.module#RecipiesPageModule'
+  },
+  {
+    path: 'users',
+    children: [
+      { path: '', loadChildren: './users/users.module#UsersPageModule' },
+      {
+        path: ':userId',
+        loadChildren:
+          './users/user-detail/user-detail.module#UserDetailPageModule'
+      }
+    ]
+  }
 ];
 
 @NgModule({
@@ -12,4 +26,4 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
