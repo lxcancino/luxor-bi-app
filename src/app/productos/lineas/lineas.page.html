@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>lineas</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="productos"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-label>Lineas: </ion-label>
+  <ion-label>{{ (lineas$ | async)?.length }}</ion-label>
+</ion-content>
