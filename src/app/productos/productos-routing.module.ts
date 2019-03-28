@@ -10,10 +10,35 @@ const routes: Route[] = [
     children: [
       {
         path: 'lineas',
-        loadChildren: './lineas/lineas.module#LineasPageModule'
+        children: [
+          { path: '', loadChildren: './lineas/lineas.module#LineasPageModule' },
+          {
+            path: ':lineaId',
+            loadChildren:
+              './lineas/linea-detail/linea-detail.module#LineaDetailPageModule'
+          }
+        ]
+      },
+      {
+        path: 'marcas',
+        children: [
+          { path: '', loadChildren: './marcas/marcas.module#MarcasPageModule' }
+        ]
+      },
+      {
+        path: '',
+        redirectTo: '/productos/lineas',
+        pathMatch: 'full'
       }
     ]
   }
+  /*
+  {
+    path: '',
+    redirectTo: '/productos/tabs/lineas',
+    pathMatch: 'full'
+  }
+  */
 ];
 
 @NgModule({
