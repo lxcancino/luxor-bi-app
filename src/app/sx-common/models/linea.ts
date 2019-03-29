@@ -1,7 +1,7 @@
 export interface Linea {
   id: string;
-  linea: string;
-  activa?: boolean;
-  dateCreated: string;
-  lastUpdated: string;
+  name: string;
+  shortDescription: string;
+  longDescription?: string;
+  imageUrl?: string;
 }

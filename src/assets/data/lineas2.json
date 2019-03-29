@@ -1,0 +1,37 @@
+[
+  {
+    "id": "402880fc5e4ec411015e4ec62f0b0002",
+    "name": "BRISTOL",
+    "shortDescription": "CARTULINA BRISTOL",
+    "longDescription": "Las cartulinas Bristol blanca y colores, están diseñadas para impresión comercial a todo color, con excelente rigidez, blancura y opacidad. Con una superficie fácil para escribir o borrar las hacen ideales para uso escolar también. Su durabilidad hace posible utilizarlas bajo manejo reiterado. ",
+    "imageUrl": "assets/images/bristol.jpg"
+  },
+  {
+    "id": "402880fc5e4ec411015e4ec62f98000b",
+    "name": "OPALINA",
+    "shortDescription": "Opalinas y estuches de plástico para tarjetas",
+    "longDescription": "Papel para trabajos de alta calidad, excelente superficie para impresión a todo color y alta blancura. Disponible en diferentes marcas y calidades como lo son Opalina Europolart (blanca y crema), Opalina Importada Inspira (alta blancura azulosa) y Opalina Guarro (blanca azulosa).",
+    "imageUrl": "assets/images/opalina.jpg"
+  },
+  {
+    "id": "402880fc5e4ec411015e4ec62ef70001",
+    "name": "BOND",
+    "shortDescription": "Papel Bond Blanco y Colores",
+    "longDescription": "Papel multiusos apto para impresión a todo color en múltiples sistemas como offset, serigrafía, copiadoras, impresoras, etc. Nuestros papeles bond son especialmente seleccionados para tener permanencia, es decir, ser durables en su manejo. Otra característica del papel bond, es que soporta el plegado, encuadernado, doblez y otros tipos de acabado de uso común en las artes gráficas. Así mismo, papel bond de Papel S.A., cuenta con la suficiente resistencia interna y de superficie para aceptar tintas para offset, lápiz, borrado, tintas de impresoras, tintas de pluma, plumín, etc. Además, su opacidad es la óptima para una lectura agradable y un impreso adecuado, tanto en color como en blanco y negro. ",
+    "imageUrl": "assets/images/bond.jpg"
+  },
+  {
+    "id": "402880fc5e4ec411015e4ec62fa5000c",
+    "name": "POLYPAP",
+    "shortDescription": "El Papel del tercer milenio",
+    "longDescription": "Polypap es el papel sintético más reconocido en el mercado mexicano y es una marca registrada de Papel S.A. Polypap es impermeable, antiestático, lavable, 100% reciclable, ecológico, suave al tacto, durable, resistente a químicos, grasas, frío, calor, aguanta miles de dobleces sin romperse y no se decolora con el tiempo.",
+    "imageUrl": "assets/images/polypap.jpg"
+  },
+  {
+    "id": "402880fc5e4ec411015e4ec630090012",
+    "name": "AUTOCOPIANTE",
+    "shortDescription": "Papel autocopiante",
+    "longDescription": "Nuestros papeles “copia sin carbón”, mejor conocidos como autocopiantes, son los favoritos del mercado mexicano. Contienen un sistema químico de transferencia y hacen uso de la reacción química entres dos recubrimientos distintos en contacto para que la imagen se transfiera a la siguiente hoja",
+    "imageUrl": "assets/images/autocopiante.jpg"
+  }
+]

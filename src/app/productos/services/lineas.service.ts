@@ -26,7 +26,7 @@ export class LineasService {
   get apiUrl() {
     if (!this._apiUrl) {
       // this._apiUrl = `${environment.apiUrl}/lineas`;
-      this._apiUrl = 'assets/data/lineas.json';
+      this._apiUrl = 'assets/data/lineas2.json';
       console.log('API: ', this._apiUrl);
     }
     return this._apiUrl;
