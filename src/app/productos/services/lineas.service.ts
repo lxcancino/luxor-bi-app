@@ -15,7 +15,7 @@ export class LineasService {
   private _apiUrl: string;
 
   constructor(private http: HttpClient) {}
-  // list(filter: EjercicioMes): Observable<SaldoPorCuentaContable[]> {
+
   list(filter: {} = { max: 100 }): Observable<Linea[]> {
     const params = new HttpParams();
     return this.http
