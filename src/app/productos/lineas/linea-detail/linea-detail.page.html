@@ -7,4 +7,14 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content> </ion-content>
+<ion-content padding>
+  <ion-list>
+    <ion-list-header color="primary">
+      <ion-label>Productos</ion-label>
+    </ion-list-header>
+    <!-- <ion-item *ngFor="let item of productos$ | async">{{item.}}</ion-item> -->
+    <ion-item color="light" detail *ngFor="let item of (productos$ | async)">
+      <ion-label>{{ item.descripcion }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

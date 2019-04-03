@@ -6,6 +6,7 @@ import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { reducers, metaReducers, CustomSerializer } from './reducers';
 
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { EffectsModule } from '@ngrx/effects';
 
 import { environment } from '../../environments/environment';
 
@@ -17,6 +18,7 @@ import { environment } from '../../environments/environment';
     StoreRouterConnectingModule.forRoot({
       serializer: CustomSerializer
     }),
+    EffectsModule.forRoot([]),
     StoreDevtoolsModule.instrument({
       name: 'LUXOR BI APP',
       maxAge: 25,

@@ -7,6 +7,14 @@ export const environment = {
   apiUrl: 'http://localhost:9195/siipapx/api'
 };
 
+export const firebaseConfig = {
+  apiKey: 'AIzaSyDn0808da0NQu4M8DPahKoGNc3zlOfv-dI',
+  authDomain: 'ionic-course-d21eb.firebaseapp.com',
+  databaseURL: 'https://ionic-course-d21eb.firebaseio.com',
+  projectId: 'ionic-course-d21eb',
+  storageBucket: '',
+  messagingSenderId: '142618012315'
+};
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
