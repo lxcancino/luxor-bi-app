@@ -21,20 +21,23 @@ export class LineaDetailPage implements OnInit {
   productos$: Observable<Producto[]>;
 
   constructor(
-    private afs: AngularFirestore,
+    // private afs: AngularFirestore,
     private route: ActivatedRoute,
     private service: LineasService
   ) {}
 
   ngOnInit() {
+    /*
     this.productosCollection = this.afs.collection<Producto>('productos');
     this.productos$ = this.productosCollection.valueChanges();
-
+    */
     this.route.paramMap.subscribe(params => {
       console.log('Params: ', params.get('lineaId'));
+      /*
       this.service
         .get(params.get('lineaId'))
         .subscribe(l => console.log('Linea: ', l));
+      */
     });
   }
 }

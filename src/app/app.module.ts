@@ -12,8 +12,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppStoreModule } from './app-store/app-store.module';
 
 // Firebase
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { firebaseConfig } from '../environments/environment';
 
 @NgModule({
@@ -24,10 +24,10 @@ import { firebaseConfig } from '../environments/environment';
     IonicModule.forRoot(),
     HttpClientModule,
     AppRoutingModule,
-    AppStoreModule,
+    AppStoreModule
     // Firebase module
-    AngularFireModule.initializeApp(firebaseConfig, 'ionic-course'),
-    AngularFirestoreModule
+    // AngularFireModule.initializeApp(firebaseConfig, 'ionic-course'),
+    // AngularFirestoreModule
   ],
   providers: [
     StatusBar,

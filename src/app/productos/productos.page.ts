@@ -11,6 +11,6 @@ export class ProductosPage implements OnInit {
   ngOnInit() {}
 
   onTabChanged(event) {
-    console.log('Tab change: ', event);
+    // sconsole.log('Tab change: ', event);
   }
 }
